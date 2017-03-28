@@ -1,13 +1,13 @@
 # Git Cheat Sheet
 
 ## History of a file
-* Git blame
+* Git blame  
 `Git blame` is nice, when I know what I'm looking for.
 I can even specify line ranges:
 ```
 git blame -L <start>,<end> <file>
 ```
-* Git log
+* Git log  
 Behold, `git log` to see a more general history of the file I'm looking for:
 ```
 git log -p -M --follow --stat -- <file>
