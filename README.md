@@ -56,9 +56,8 @@ I haven't been in this situation since I started this document, so no command ye
 
 #### Pre-commit
  See the `pre-commit` file, which, in my setup, lives in ~/.git-templates/hooks  
-I am aborting commits where modified files contain unwanted elements.   
-That's a general rule, no matter the git repository. 
-
+I am aborting commits where modified files contain unwanted elements, such as TO~DOs.
+That's a general rule, no matter the git repository.
 
 
 
