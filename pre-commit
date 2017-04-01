@@ -1,6 +1,6 @@
 #!/bin/sh
 
-. git-sh-setup  # for die
-git-diff-index -p -M --cached HEAD -- | grep '^+' | egrep 'TO-DO'
-&& die Blocking commit. Forgotten TO-DO ?
-:
+if  git diff-index -p -M --cached HEAD -- | grep '^+' | egrep 'FORBIDDENWORD' ; then
+  echo "You've left a FORBIDDENWORD! Aborting commit..."
+  exit 1;
+fi
