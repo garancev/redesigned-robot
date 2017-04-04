@@ -1,0 +1,6 @@
+[help]
+	autocorrect = 15
+[init]
+	templatedir = ~/.git-templates
+[alias]
+	st = status

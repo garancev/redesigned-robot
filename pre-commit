@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if  git diff-index -p -M --cached HEAD -- | grep '^+' | egrep 'FORBIDDENWORD' ; then
+if  git diff-index -p -M --cached HEAD -- | grep '^+' | grep -e 'FORBIDDENWORD1' -e 'FORBIDDENWORD2' ; then
   echo "You've left a FORBIDDENWORD! Aborting commit..."
   exit 1;
 fi

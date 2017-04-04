@@ -1,7 +1,6 @@
 # Git Cheat Sheet
 
 ## Studying repo History
-
 ### History of a file
 * Git blame  
 `Git blame` is nice, when I know what I'm looking for.  
@@ -49,20 +48,26 @@ I have the bad habit of not seeing my biggest mistakes on the repo, _especially_
 I haven't been in this situation since I started this document, so no command yet.
 
 ## My git config
+My global git config (`~/.gitconfig`)is in this repo as `global-gitconfig`. It has different parts:
 ### Aliases
-`git log --abbrev-commit` as an alias of git log
+`git st = git status` because I check my status much more often than I stash or stage.
+### Log
+To print my git logs with a default level of reading comfort, the `abrevCommit` flag is true by default:
+`abbrevCommit = true`
 
-### Hooks
+## Hooks
 
-#### Pre-commit
- See the `pre-commit` file, which, in my setup, lives in ~/.git-templates/hooks  
+### Pre-commit
+See the `pre-commit` file, which, in my setup, lives in ~/.git-templates/hooks  
 I am aborting commits where modified files contain unwanted elements, such as TO~DOs.
 That's a general rule, no matter the git repository.
 
-
+### Post-commit
+I haven't found a use for post-commit yet.
 
 # Sources
 When I haven't forgotten the source of my findings already, I'll list them here:
 
 * [Git doc](https://git-scm.com/docs)
 * [Andrew Ray's blog](http://blog.andrewray.me/a-better-git-blame/)
+* [StackOverflow answer by underrun for git flags](http://stackoverflow.com/a/11884798/6329359)
