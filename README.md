@@ -50,9 +50,11 @@ I haven't been in this situation since I started this document, so no command ye
 ## My git config
 My global git config (`~/.gitconfig`)is in this repo as `global-gitconfig`. It has different parts:
 ### Aliases
-`git st = git status` because I check my status much more often than I stash or stage.
+Convenience aliases, for the operations I do 50 times a day:  
+`git st = git status`  
+`git ch = git checkout`  
 ### Log
-To print my git logs with a default level of reading comfort, the `abrevCommit` flag is true by default:
+To print my git logs with a default level of reading comfort, the `abrevCommit` flag is true by default:  
 `abbrevCommit = true`
 
 ## Hooks

@@ -4,3 +4,4 @@
 	templatedir = ~/.git-templates
 [alias]
 	st = status
+	ch = checkout
