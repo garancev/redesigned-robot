@@ -5,3 +5,9 @@
 [alias]
 	st = status
 	ch = checkout
+    pl = pull
+    ph = push
+	a = add
+    co = commit
+[log]
+	abbrevCommit = true

@@ -40,7 +40,12 @@ Soft reset of the last commit:
 git reset HEAD~
 ```
 ` ~ `  means commit before last  
-Soft because all the changes will still be in my repo, I can do whatever I want with them.
+Soft because all the changes will still be in my repo, I can do whatever I want with them.  
+To completely get rid of my local commits and changes, and get back to the remote branch HEAD, I can;
+```
+git reset --hard origin/<branch_name>
+```
+Reset always needs a commit to refer itself to.
 
 ### Undoing remote stuff
 I have the bad habit of not seeing my biggest mistakes on the repo, _especially_ if I know how to fix them right after I made them!
@@ -53,9 +58,11 @@ My global git config (`~/.gitconfig`)is in this repo as `global-gitconfig`. It h
 Convenience aliases, for the operations I do 50 times a day:  
 `git st = git status`  
 `git ch = git checkout`  
+`git pl = git pull`  
+`git ph = git push`  
+`git a = git add`  
 ### Log
-To print my git logs with a default level of reading comfort, the `abrevCommit` flag is true by default:  
-`abbrevCommit = true`
+To print my git logs with a default level of reading comfort, the `abrevCommit` flag is true by default.
 
 ## Hooks
 
