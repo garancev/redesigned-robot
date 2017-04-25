@@ -9,5 +9,6 @@
     ph = push
 	a = add
     co = commit
+    amend = commit --amend --no-edit
 [log]
 	abbrevCommit = true

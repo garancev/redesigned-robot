@@ -32,5 +32,5 @@ git checkout <hash>^ -- <path>
 ```
 Then, we have the previous version of the files in our unstaged changes! :tada:
 
-[Next: My git config](myConfig.md).
+[Next: My git config](myConfig.md).  
 [Back to the Readme](README.md).

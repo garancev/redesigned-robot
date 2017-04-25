@@ -20,5 +20,5 @@ git show <hash> --name-only
 ```
 
 
-[Next: Fixing mistakes](fixMistakes.md).
+[Next: Fixing mistakes](fixMistakes.md).  
 [Back to the Readme](README.md).
