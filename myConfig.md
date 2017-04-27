@@ -7,15 +7,28 @@ Convenience aliases, for the operations I do 50 times a day:
 `git pl = git pull`  
 `git ph = git push`  
 `git a = git add`  
+`co = commit -m`  
+`amend = commit --amend --no-edit`  
+
+__How to read:__  
+`git amend` does the same thing as `git commit --amend --no-edit`, which is useful when I have simply made an extra change without having pushed yet.
 
 ## Log
 To print my git logs with a default level of reading comfort, the `abrevCommit` flag is true by default.
+
+## Status
+The `short` flag is at true, which gives the modified files status with just 1 letter for staged, one letter for unstaged.  
+The `branch` flag is at true, to still get branch info even if the output is non verbose.  
+For example:
+![git status -sb output](git_st_short.png)
+is the same thing as:
+![git status --long output](git_st_long.png)
 
 # Hooks
 
 ## Pre-commit
 See the `pre-commit` file, which, in my setup, lives in `~/.git-templates/hooks`.  
-I am aborting commits where modified files contain unwanted elements, such as TO-DOs.
+I am aborting commits where modified files contain unwanted elements, such as TO-DOs.  
 That's a general rule, no matter the git repository.
 
 ## Post-commit
