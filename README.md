@@ -17,7 +17,13 @@ git stash pop
 ```
 Applies the changes _and_ removes from the pile.
 
+## Fixing conflicts
 
+For a no-brainer conflict, where I know who has the truth:  
+```
+git checkout --theirs index.html
+git checkout --ours index.html
+```
 
 # Sources
 When I haven't forgotten the source of my findings already, I'll list them here:

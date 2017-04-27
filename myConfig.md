@@ -32,7 +32,11 @@ is the same thing as:
 ## Pre-commit
 See the `pre-commit` file, which, in my setup, lives in `~/.git-templates/hooks`.  
 I am aborting commits where modified files contain unwanted elements, such as TO-DOs.  
-That's a general rule, no matter the git repository.
+That's a general rule, no matter the git repository.  
+If, with a merge, I happen to have TO-DOs that I can't do anything about, it's always possible to force the commit with the `n` option:
+```
+git commit -n -m "Merging with TO-DOs, no choice!"
+```
 
 ## Post-commit
 I haven't found a use for post-commit yet.
