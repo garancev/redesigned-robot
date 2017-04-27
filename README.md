@@ -26,3 +26,4 @@ When I haven't forgotten the source of my findings already, I'll list them here:
 * [Andrew Ray's blog](http://blog.andrewray.me/a-better-git-blame/)
 * [A StackOverflow answer by underrun](http://stackoverflow.com/a/11884798/6329359)
 * [A StackOverflow answer by Charles Bailey](http://stackoverflow.com/a/1113140/6329359)
+* [A StackOverflow answer by inger](http://stackoverflow.com/a/3125507/6329359)

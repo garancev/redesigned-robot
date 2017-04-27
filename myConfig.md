@@ -9,9 +9,12 @@ Convenience aliases, for the operations I do 50 times a day:
 `git a = git add`  
 `co = commit -m`  
 `amend = commit --amend --no-edit`  
+`conflict = !git ls-files -u | cut -f 2 | sort -u`  
 
 __How to read:__  
-`git amend` does the same thing as `git commit --amend --no-edit`, which is useful when I have simply made an extra change without having pushed yet.
+`git amend` does the same thing as `git commit --amend --no-edit`, which is useful when I have simply made an extra change without having pushed yet.  
+`git conflicts` gives me the diff list with _only_ the conflicted files (if any). Not useful very often, but when I update an older branch!  
+The `!` signals it's a script and not a command to concatenate to a git call. Here it's needed to pipe results without having `git` added before the other commands.  
 
 ## Log
 To print my git logs with a default level of reading comfort, the `abrevCommit` flag is true by default.

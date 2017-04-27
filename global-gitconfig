@@ -1,14 +1,18 @@
 [help]
-	autocorrect = 15
+    autocorrect = 15
 [init]
-	templatedir = ~/.git-templates
+    templatedir = ~/.git-templates
 [alias]
-	st = status
-	ch = checkout
+    st = status
+    ch = checkout
     pl = pull
     ph = push
-	a = add
-    co = commit
+    a = add
+    co = commit -m
     amend = commit --amend --no-edit
+    conflict = !git ls-files -u | cut -f 2 | sort -u
 [log]
-	abbrevCommit = true
+    abbrevCommit = true
+[status]
+    short = true
+    branch = true
