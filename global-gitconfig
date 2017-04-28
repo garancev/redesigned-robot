@@ -11,8 +11,12 @@
     co = commit -m
     amend = commit --amend --no-edit
     conflict = !git ls-files -u | cut -f 2 | sort -u
+    graph = log --graph --oneline
 [log]
     abbrevCommit = true
 [status]
     short = true
     branch = true
+[merge]
+    no-edit = true
+    

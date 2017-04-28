@@ -2,11 +2,6 @@
 
 ## Clean up branches
 
-* Prune references to remote branches that don't exist on remote anymore:  
-```
-git remote prune origin
-```
-Add `--dry-run` to first check what will be deleted !  
 * Check local branches merged with current branch (or without a commit yet):
 ```
 git branch --merged
@@ -15,7 +10,13 @@ git branch --merged
 ```
 git branch --no-merged
 ```
-Delete unwanted branches with `-d`. Force deletion with `-D`  s
+Delete _locally_ unwanted branches with `git branch -d <branch_name>`. Force deletion with `git branch -D <branch_name>`  
+Delete _remotely_ unwanted branches with `git push origin --delete <branch_name>`  
 
+* Prune references to remote branches that don't exist anymore:  
+```
+git remote prune origin
+```
+:information_source: Add `--dry-run` to first check what will be deleted !  
 
 [Back to the Readme](README.md).
