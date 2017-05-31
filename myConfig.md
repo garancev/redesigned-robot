@@ -10,15 +10,15 @@ Convenience aliases, for the operations I do 50 times a day:
 `git co = git commit -m`  
 
 New commands, for specific operations:  
-```
+```shell
 git amend = git commit --amend --no-edit
 ```
 Creates a new `amend` command for that specific use case.
-```
+```shell
 git conflict = !git ls-files -u | cut -f 2 | sort -u
 ```
 Gives me the diff list with _only_ the conflicted files (if any).
-```
+```shell
 git graph = git log --graph --oneline
 ```
 Shows the commit history, with branches.  
@@ -47,12 +47,17 @@ This directory is defined in my config, under as a  `templatedir` variable.
 I am aborting commits where modified files contain unwanted elements, such as TO-DOs.  
 That's a general rule, no matter the git repository.  
 If, with a merge, I happen to have TO-DOs that I can't do anything about, it's always possible to force the commit with the `n` option:
-```
+```shell
 git commit -mn "Merging with TO-DOs, no choice!"
 ```
 
 ## Post-commit
 I haven't found a use for post-commit yet.
 
-[Next: Housekeeping the repo](housekeeping.md).  
-[Back to the Readme](README.md).
+# More
+* [Studying repo History](studyHistory.md)
+* [Fixing mistakes](fixMistakes.md)
+* [Fixing conflicts](fixConflicts.md)
+* [Stashing](stash.md)
+* [Housekeeping the repo](housekeeping.md)
+* [Back to the Readme](README.md).
