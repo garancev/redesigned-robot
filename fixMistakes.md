@@ -14,11 +14,6 @@ git reset --hard origin/<branch_name>
 ```
 Reset always needs a commit to refer itself to.
 
-Something weird just happened... Check everything you recently did, and get back to any state you want with:
-```shell
-git reflog
-```
-
 ## Undoing remote stuff
 I have the bad habit of not seeing my biggest mistakes on the repo, _especially_ if I know how to fix them right after I made them!
 (the real bad habit is to not think enough before pushing :grin: )

@@ -1,5 +1,20 @@
 # Studying repo History
-## Files history
+
+## What did I just do ? :fearful:
+
+To see the difference between HEAD and the staged files:
+```shell
+git diff --staged
+```
+
+To check everything I recently did:
+```shell
+git reflog
+```
+It also gives a reference to each passed state, that I can checkout same as if it was a stash.
+It is in fact a built-in alias of `git log -g --abbrev-commit --pretty=oneline`.
+
+## File history
 ### Git blame  
 `Git blame` is nice, when I know what I'm looking for.  
 I can even specify line ranges:  
@@ -19,7 +34,7 @@ git log -p -M --follow --stat -- <file>
 git log -GexpressionILookFor
 ```  
 
-## About one commit
+## Commit history
 * To see only a list of the files changed in the commit, instead of each diff:  
 ```shell
 git show <hash> --name-only
