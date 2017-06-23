@@ -6,6 +6,7 @@ I usually simply `git stash`, but there are better ways. Namely, giving a messag
 ```shell
 git stash save -- "stash message"
 ```
+I have an alias for that command, `git keep "message"`. 
 
 ## Finding the right stash
 Get the list of all stashs:

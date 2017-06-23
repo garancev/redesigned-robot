@@ -40,6 +40,11 @@ git log -GexpressionILookFor
 git show <hash> --name-only
 ```
 
+* To see all the commits by one specific person:
+```shell
+git log --pretty=format:"%ad:%an:%d:%B" --date=short --branches --since=2.months.ago --author="git Username"
+```
+
 
 # More
 * [Fixing mistakes](fixMistakes.md)
