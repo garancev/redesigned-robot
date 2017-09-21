@@ -25,4 +25,5 @@ git remote prune origin
 * [Fixing conflicts](fixConflicts.md)
 * [Stashing](stash.md)
 * [My git config](myConfig.md)
+* [Meddling with commits](meddling.md)
 * [Back to the Readme](README.md).

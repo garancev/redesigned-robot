@@ -60,4 +60,5 @@ I haven't found a use for post-commit yet.
 * [Fixing conflicts](fixConflicts.md)
 * [Stashing](stash.md)
 * [Housekeeping the repo](housekeeping.md)
+* [Meddling with commits](meddling.md)
 * [Back to the Readme](README.md).

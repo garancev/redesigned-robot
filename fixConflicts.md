@@ -41,4 +41,5 @@ _...in construction..._
 * [Stashing](stash.md)
 * [My git config](myConfig.md)
 * [Housekeeping the repo](housekeeping.md)
+* [Meddling with commits](meddling.md)
 * [Back to the Readme](README.md).

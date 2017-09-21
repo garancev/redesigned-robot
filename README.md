@@ -16,6 +16,7 @@ This repo is the compilation of my git usage knowledge, for everyday troubleshoo
 * [Stashing](stash.md)
 * [My git config](myConfig.md)
 * [Housekeeping the repo](housekeeping.md)
+* [Meddling with commits](meddling.md)
 
 ## Sources
 When I haven't forgotten the source of my findings already, I'll list them here:
@@ -27,4 +28,6 @@ When I haven't forgotten the source of my findings already, I'll list them here:
 * [Various answers under this StackOverflow question](https://stackoverflow.com/questions/1910082/git-stash-apply-version) (for `git stash` precisions)
 * [A StackOverflow question by pepr](https://stackoverflow.com/questions/10349302/how-to-git-log-from-all-branches-for-the-author-at-once) (for `git log` specific to an author)
 * [Oh shit git](http://ohshitgit.com/) (for `git reflog`)
+* [A blog post from Arne Hartherz
+](https://makandracards.com/makandra/10173-git-how-to-rebase-your-feature-branch-from-one-branch-to-another) (for `git rebase`)
 * [Git doc](https://git-scm.com/docs) (for many, many things)

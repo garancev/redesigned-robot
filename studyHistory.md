@@ -52,4 +52,5 @@ git log --pretty=format:"%ad:%an:%d:%B" --date=short --branches --since=2.months
 * [Stashing](stash.md)
 * [My git config](myConfig.md)
 * [Housekeeping the repo](housekeeping.md)
+* [Meddling with commits](meddling.md)
 * [Back to the Readme](README.md).
