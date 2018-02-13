@@ -3,10 +3,9 @@
 This repo is the compilation of my git usage knowledge, for everyday troubleshooting and life / time saver settings I have. I made it to have a trustworthy reference to go to, instead of endlessly roaming on StackOverflow when I want to do something special. I'd also be extra happy if it can help others :)
 
 ## Git pre-existing aliases
-` ~ `  means commit before last  
+` ~ ` means commit before last  
 ` ^ ` means previous commit  
 ` -- ` makes references to a file and not a branch explicitly
-
 
 
 ## More
@@ -17,6 +16,7 @@ This repo is the compilation of my git usage knowledge, for everyday troubleshoo
 * [My git config](myConfig.md)
 * [Housekeeping the repo](housekeeping.md)
 * [Meddling with commits](meddling.md)
+* [Juggling with several git config](severalConfigurations.md)
 
 ## Sources
 When I haven't forgotten the source of my findings already, I'll list them here:

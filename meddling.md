@@ -24,4 +24,5 @@ Giving the commit right before my owns is needed if I already have commits in my
 * [Stashing](stash.md)
 * [My git config](myConfig.md)
 * [Housekeeping the repo](housekeeping.md)
+* [Juggling with several git config](severalConfigurations.md)
 * [Back to the Readme](README.md).

@@ -14,10 +14,20 @@ git reset --hard origin/<branch_name>
 ```
 Reset always needs a commit to refer itself to.
 
+## "Cancel" a renamed file
+```shell
+git mv <renamedName> <originalName>
+```
+
 ## Undoing remote stuff
 I have the bad habit of not seeing my biggest mistakes on the repo, _especially_ if I know how to fix them right after I made them!
 (the real bad habit is to not think enough before pushing :grin: )
-I haven't been in this situation since I started this document, so no command yet.
+If I need to go back to a previous commit: 
+This will put the branch back to the specified commit. 
+I can then force push to erase everything that happened before. 
+```shell
+git reset <commit_hash>
+```
 
 ## Get a group of files back to previous version
 Quick how-to:  
@@ -39,4 +49,5 @@ Then, we have the previous version of the files in our unstaged changes! :tada:
 * [My git config](myConfig.md)
 * [Housekeeping the repo](housekeeping.md)
 * [Meddling with commits](meddling.md)
+* [Juggling with several git config](severalConfigurations.md)
 * [Back to the Readme](README.md).
